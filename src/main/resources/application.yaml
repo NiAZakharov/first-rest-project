@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/brs
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  liquibase:
+    enabled: true
+    change-log: classpath:changelog/db.changelog-master.yaml
+    default-schema: public
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update

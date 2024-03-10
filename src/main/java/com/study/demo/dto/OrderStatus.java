@@ -1,6 +1,6 @@
 package com.study.demo.dto;
 
-public enum RequestStatus {
+public enum OrderStatus {
     CREATED,
     ACCEPTED,
     IN_WORK,

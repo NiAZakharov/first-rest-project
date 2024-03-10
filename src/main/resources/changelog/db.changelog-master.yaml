@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: changeset/001_create_extension.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changeset/002_create_table_users.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changeset/003_insert_data_to_users.sql
+      relativeToChangelogFile: true
